@@ -3,7 +3,6 @@ const performanceHooks = require('perf_hooks').performance;
 const fs = require('fs/promises');
 const https = require('https');
 const { StringDecoder } = require('string_decoder');
-const stringDecoder = require('string_decoder').StringDecoder;
 
 // Read a file function
 const readFile = async function(fileName){
